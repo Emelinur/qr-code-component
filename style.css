@@ -36,7 +36,7 @@ body {
   padding: 0;
   background-color: var(--slate-300);
   font-family: var(--font-family);
-   display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -51,7 +51,7 @@ main {
   padding: 0;
 }
 .card {
-  max-width:320px;
+  max-width: 320px;
   max-height: 499px;
   background-color: var(--white);
   padding: 16px 16px 40px;
@@ -61,8 +61,8 @@ main {
   box-shadow: var(--shadow-card);
 }
 .qr-image {
-  max-width:288px ;
-  aspect-ratio:1/1;
+  max-width: 288px;
+  aspect-ratio: 1/1;
   background-color: var(--blue-500);
   display: flex;
   justify-content: center;
